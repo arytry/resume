@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Linkjr <linkjr@sina.com>",
+  "license": "MIT",
+  "description": "Claire's CV",
+  "repository": "https://github.com/arytry/resume",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
