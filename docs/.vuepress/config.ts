@@ -17,6 +17,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     themeConfig: {
         // logo: 'https://vuejs.org/images/logo.png',
+        lastUpdated: false,
         locales: {
             '/': {},
             '/zh/': {
