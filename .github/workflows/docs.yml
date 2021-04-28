@@ -54,3 +54,7 @@ jobs:
           build_dir: docs/.vuepress/dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 自定义域名
+      - name: Customer CNAME
+        run: echo 'resume.arytry.com' > CNAME
