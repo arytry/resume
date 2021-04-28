@@ -56,5 +56,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 自定义域名
-      - name: Customer CNAME
+      - name: Custom CNAME
         run: echo 'resume.arytry.com' > CNAME
